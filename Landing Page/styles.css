@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/** navbar logo **/
+.navbar {
+    overflow: hidden;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    max-height: 60px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+.logo-container h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    
+}
+.logo-img{
+    width: auto;
+    height: 100%;
+    object-fit:contain;
+}
+
+/** navbar links **/
+.nav-links{
+    display:flex;
+    text-decoration: none;
+    gap: 1.2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.nav-links li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.cta-button{
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    border: 1px solid black;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+
+/** navbar links hover **/
+.nav-links li a:hover{
+    color: #86ed09;
+    transform: translateY(-2px) scale(1.1);
+    transition: 0.5s ease;
+}
+.cta-button:hover{
+    background-color: #B9FF66;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
