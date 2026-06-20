@@ -11,7 +11,7 @@
         <nav class="navbar">
             <div class="logo-container">
                 <img src="images/Logo.svg" alt="Postivus Logo" class="logo-img">
-                <h1>Postivus</h1>
+                <span>Postivus</span>
             </div>
             <ul class="nav-links">
                 <li><a href="#about-us">About Us</a></li>
@@ -25,10 +25,10 @@
         </nav>
     </header>
     <main>
-        <section class="about-us">
+        <section class="about-us" id="about-us">
             <div class="hero-container">
                 <div class="hero-content">
-                    <h2 class="hero-h2">Navigating the digital landscape for success</h2>
+                    <h1 class="hero-h1">Navigating the digital landscape for success</h1>
                     <span class="hero-p-span">
                         <p class="hero-p">Our digital Marketing agency helps businesses grow and succeed online through a range of servic es including SEO, PPC, social media marketing, and content creation.</p>
                         <button class="hero-cta-btn">Book a consultation</button>
@@ -49,7 +49,7 @@
                 <img src="images/company-logos-svg/SVG cropped/zoom-svgrepo-com.svg" alt="Zoom Logo">
             </div>
         </div>
-       <section class="services">
+       <section class="services" id="services">
             <div class="services-intro">
                 <h2 class="services-intro-h2">Services</h2>
                 <p> At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
@@ -116,14 +116,71 @@
                     <img src="images/Services Illustration/AT illustration.png" alt="Analytics and tracking illustration">
                 </article>
                 <!-- Services CTA-->
-                <article class="service-cta-container">
+                <aside class="service-cta-container">
                     <div class="service-cta-content">
                         <h3>Let's make things happen</h3>
                         <p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online</p>
                         <button>Get your free proposal</button>
                     </div>
                     <img src="images/Services Illustration/Services-CTA illustration.png" alt="service cta illustration">
+                </aside>
+            </div>
+       </section>
+       <!--Case Studies Section-->
+       <section class="case-studies-section" id="use-cases">
+            <div class="cs-intro">
+                <h2>Case Studies</h2>
+                <p>Explore Real-Life Examplesof our Proven Digital Marketing Success Through Our Case Studies</p>
+            </div>
+            <div class="cs-card">
+                <article class="cs-card-content">
+                    <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                    <a href="#" class="cs-learn-more">
+                        Learn more 
+                        <span>&#129125;</span>
+                    </a>
                 </article>
+                <article class="cs-card-content">
+                    <p>For a B2B software company, we developed a SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.   </p>
+                    <a href="#" class="cs-learn-more">
+                        Learn more 
+                        <span>&#129125;</span>
+                    </a>
+                </article>
+                <article class="cs-card-content">
+                    <p>For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.</p>
+                    <a href="#" class="cs-learn-more">
+                        Learn more 
+                        <span>&#129125;</span>
+                    </a>
+                </article>
+            </div>
+       </section>
+       <!--Our Working Process Section-->
+       <section class="contact-section">
+            <div class="contact-section-intro">
+                <h2>Contact Us</h2>
+                <p>Connect with Us; Let's Discuss Your Digital Marketing Needs</p>
+            </div>
+            <div class="form-container">
+                <form>
+                    <!--Get a quote + say hi-->
+                    <input type="radio" id="hi" value="hi" name="quote-hi">
+                        <label>Say Hi</label>
+                    <input type="radio" id="quote" value="quote" name="quote-hi">
+                        <label>Get a Quote</label>
+
+                    <!--Contact info input-->
+                    
+                        <label>Name</label>
+                         <input type="text">
+
+                        <label>Email</label>
+                          <input type="email">
+
+                        <label>Message</label>
+                        <textarea></textarea>
+                </form>
             </div>
        </section>
    </main> 
